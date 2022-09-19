@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.R.U</title>
+</head>
+<body>
+  <div class="contenedortitulo">
+    <h1>Calculadora de MRU</h1>
+    <h2 style="transform: scale(60%);"> Movimiento Rectilíneo</h2>
+    <h2>Uniforme</h2>
+</div>
+  <div class="contenedor">
+  <p class="concepto"></p>
+  <p><b>Calculadora de movimiento rectilineo uniforme</b> con procedimientos: Como su nombre lo indica, la
+    calculadora de MRU te permite resolver ejercicios relacionados con el <b>movimiento rectilineo uniforme
+        (MRU)</b>,
+    es decir, podrás calcular distancia, tiempo o velocidad.
+    Para hallar el resultado en la calculadora de mru, debes digitar
+    algunas de las variables del movimiento rectilineo uniforme: Distancia (<span class="unidades">d</span>),
+    tiempo (<span class="unidades">t</span>) o velocidad (<span class="unidades">v</span>).
+</p>
+    <div class="columnas">
+      <div class="columna-1">
+        <p class="concepto">
+      </div>
+      <div class="column-3">
+      </div>
+    </div>
+    <div class="columnas">
+      <div class="columna-1 card">
+        <h3>Cálculo de la Distancia</h3>
+            <div class="alinear-izq">
+                <label for="">Velociad: </label><input type="text" class="velocidad"> <span>m/s</span> <br> 
+                <label for="">Tiempo: </label><input type="text" class="tiempo"> <span>s</span> <br>
+                <label for="">Distancia: </label><span class="resultado"></span> m</span>
+            </div>
+        <button class="boton" class="boton">Aceptar</button>
+      </div>
+      <div class="columna-2 card">
+        <h3>Cálulo del Tiempo</h3>
+        <div class="alinear-izq">
+            <label for="">Velociad: </label><input type="text" class="velocidad"> <span>m/s</span> <br>
+            <label for="">Distancia: </label><input type="text" class="distancia"> <span>m</span> <br>
+            <label for="">Tiempo: </label><span class="resultado"></span><span> s</span>
+        </div>
+        <button class="boton" class="boton">Aceptar</button>
+      </div>
+      <div class="columna-3 card">
+        <h3>Cálculo de la Velocidad</h3>
+        <div class="alinear-izq">
+            <label for="">Distancia: </label><input type="text" class="distancia"> <span>m</span> <br>
+            <label for="">Tiempo: </label><input type="text" class="tiempo"> <span>s</span> <br>
+            <label for="">Velociad: </label><span class="resultado"></span><span> m/s</span>
+        </div>
+        <button class="boton" class="boton">Aceptar</button>
+      </div>
+    </div>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

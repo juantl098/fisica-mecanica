@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Conversor de unidades <br> Distancia y Velocidad</h2>
+        <div class="fila">
+            <span>Convertir de</span>
+            <select name="unidad1" id="unidad1">
+            <option value="kilometro">Kilometro</option>
+            <option value="Metro">metro</option>
+            <option value="centimetro">centimetro</option>
+            <option value=""></option>
+            <option value="m/s">m/s</option>
+            <option value="k/h">Km/h</option>
+            <option value="m/h">M/h</option>
+            </select>
+            <span> A </span>
+            <select name="unidad2" id="unidad2">
+                <option value="kilometro">Kilometro</option>
+                <option value="Metro">metro</option>
+                <option value="centimetro">centimetro</option>
+                <option value=""></option>
+                <option value="m/s">m/s</option>
+                <option value="k/h">Km/h</option>
+                <option value="m/h">M/h</option>
+                </select>
+        </div>
+        
+        <input type="number" id="valor" placeholder="valor">
+        <div class="resultado" id="resultado">
+            - -
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
